@@ -1,0 +1,51 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+html {
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  gap: 2vh;
+  padding: 3% 20%;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.logo {
+  font-size: 24px;
+}
+.linkone {
+  margin-left: auto;
+}
+.banner {
+  display: flex;
+  font-size: 48px;
+  padding: 0 20%;
+  background-color: #1f2937;
+}
+.image-placeholder {
+  align-self: stretch;
+  flex: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  background-color: lightgray;
+  font-size: 18px;
+}
+button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 15%;
+}
+.banner-text {
+  width: 50%;
+  flex: auto;
+  color: #f9faf8;
+}
+.sub-text {
+  color: #9f9fa2;
+  font-size: 18px;
+}

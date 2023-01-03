@@ -2,8 +2,12 @@ body {
   margin: 0%;
   padding: 0%;
 }
+
 html {
   box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
 }
 .header {
   display: flex;
@@ -24,6 +28,7 @@ html {
   font-size: 48px;
   padding: 0 20%;
   background-color: #1f2937;
+  padding-bottom: 1%;
 }
 .image-placeholder {
   align-self: stretch;
@@ -34,6 +39,7 @@ html {
   width: 50%;
   background-color: lightgray;
   font-size: 18px;
+  text-align: center;
 }
 button {
   background-color: #3882f6;
@@ -48,4 +54,32 @@ button {
 .sub-text {
   color: #9f9fa2;
   font-size: 18px;
+}
+.boxes-container {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  padding: 0 20%;
+}
+.boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box {
+  height: 15vh;
+  width: 15vh;
+  border: #3882f6 solid;
+  border-radius: 10%;
+}
+.sub-title {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+.box-text {
+  text-align: center;
 }
